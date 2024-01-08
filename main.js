@@ -1,6 +1,6 @@
 var btn = document.querySelector(".button");
 
-function buttonClicked() {
+function motionClicked() {
  btn.classList.add("anim");
  setTimeout(() -> {
   btn.classList.remove("anim");
