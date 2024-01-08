@@ -2,6 +2,10 @@ p {
  font-size: large;
 }
 
+.button{
+ width: 300px;
+}
+
 anim{
   width: 300px;
   animation: spin 1s infinite linear;
