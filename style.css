@@ -1,16 +1,3 @@
 p {
  font-size: large;
 }
-
-img{  width: 300px;
-  animation: animation 1s infinite linear;
-}
-
-@keyframes animation {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
