@@ -2,12 +2,12 @@ p {
  font-size: large;
 }
 
-img{
+.button{
   width: 300px;
-  animation: rotation 1s infinite linear;
+  animation: spin 1s infinite linear;
 }
 
-@keyframes rotation {
+@keyframes spin {
   from {
     transform: rotate(0deg);
   }
