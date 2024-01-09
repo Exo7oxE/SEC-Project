@@ -3,14 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script href="main.js"></script>
+    <script src="script.js"></script>
     <link rel="stylesheet" href="style.css">
     <title>epic website</title>
 </head>
 <body>
     <h1>yo</h1>
     <p>hi</p>
-    <img src="motion.png">
-    <button>inform the cat he has no motion</button>
+
+    <div id="no motion">
+      <img src="nomotion.png">
+			<button onclick="informCat()">inform the cat he has no motion</button>
+    </div>
+
+    <div hidden id="motion">
+      <img src="motion.png">
+    </div>
 </body>
 </html>
